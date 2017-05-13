@@ -1,21 +1,19 @@
 <template>
-  <div>
-    <input v-model="msg">
-    <p>prop: {{propMessage}}</p>
-    <p>msg: {{msg}}</p>
-    <p>helloMsg: {{helloMsg}}</p>
-    <p>computed msg: {{computedMsg}}</p>
-    <button @click="greet">Greet</button>
-  </div>
+  <Layout>
+  </Layout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
+import Layout from './shared/Layout'
 
 @Component({
   props: {
     propMessage: String
+  },
+  components: {
+    "Layout": Layout
   }
 })
 export default class App extends Vue {

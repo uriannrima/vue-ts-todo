@@ -8,7 +8,7 @@ module.exports = {
     vendor: './vendor.ts'
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['*', '.vue', '.ts', '.js']
   },
   module: {
     rules: [
@@ -32,7 +32,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html'
-    }),
-    new webpack.optimize.OccurrenceOrderPlugin()
+    })
   ]
 }
