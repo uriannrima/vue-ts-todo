@@ -32,6 +32,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'index.html'
-    })
+    }),
+    new webpack.optimize.OccurrenceOrderPlugin()
   ]
 }

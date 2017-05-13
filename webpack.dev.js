@@ -5,7 +5,7 @@ const CommonConfig = require('./webpack.common.js');
 module.exports = function (env) {
     const path = `${__dirname}/dist/${env}`;
     return Merge(CommonConfig, {
-        devtool: 'inline-sourcemap',
+        devtool: 'source-map',
         output: {
             path: path,
             filename: "[name].js"

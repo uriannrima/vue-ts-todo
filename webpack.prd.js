@@ -16,7 +16,6 @@ module.exports = function (env) {
         plugins: [
             new webpack.DefinePlugin({ 'process.env': { 'NODE_ENV': JSON.stringify('production') } }),
             new CleanWebpackPlugin([path]),
-            new webpack.optimize.OccurrenceOrderPlugin(),
             new webpack.optimize.UglifyJsPlugin({
                 minimize: true, beautify: false, comments: false, sourceMap: true,
                 mangle: { screw_ie8: true, keep_fnames: true }, compress: { screw_ie8: true }
