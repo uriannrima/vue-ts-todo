@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <router-link to="/">Go to Home</router-link>
-        <router-link to="/about">Go to About</router-link>
-        <router-view></router-view>
-    </div>
+    <h1>
+        Home!
+    </h1>
 </template>
 
 <script lang="ts">

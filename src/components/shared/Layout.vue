@@ -2,7 +2,7 @@
     <div>
         <Navbar></Navbar>
         <Contents></Contents>
-        <Footer></Footer>
+        <Foot></Foot>
     </div>
 </template>
 
@@ -10,14 +10,14 @@
 import Vue from 'vue'
 import Component from 'vue-class-component'
 import Contents from './layout/Contents'
-import Footer from './layout/Footer'
+import Foot from './layout/Foot'
 import Navbar from './layout/Navbar'
 
 @Component({
     components : {
         Contents, 
         Navbar, 
-        Footer
+        Foot
     }
 })
 export default class extends Vue {

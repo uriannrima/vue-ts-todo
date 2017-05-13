@@ -1,10 +1,12 @@
 <template>
   <Layout>
+    
   </Layout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import VueRouter from 'vue-router'
 import Component from 'vue-class-component'
 import Layout from './shared/Layout'
 
