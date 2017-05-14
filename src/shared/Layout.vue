@@ -18,7 +18,7 @@ import { Contents, Foot, Navbar } from '../components/layout'
         Foot
     }
 })
-export default class extends Vue {
+export default class Layout extends Vue {
 
 }
 </script>

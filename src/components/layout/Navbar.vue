@@ -37,7 +37,7 @@ class NavItem {
 }
 
 @Component({})
-export default class extends Vue {
+export default class Navbar extends Vue {
     navItems: NavItem[] = [
         { label: 'Home', to: '/home' },
         { label: 'About', to: '/about' }

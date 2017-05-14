@@ -11,7 +11,7 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 
 @Component({})
-export default class extends Vue {
+export default class Foot extends Vue {
     footerStyle : any = {
         position: "fixed",
         left: "0",

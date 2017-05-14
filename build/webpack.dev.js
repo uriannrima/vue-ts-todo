@@ -5,7 +5,7 @@ const CommonConfig = require('./webpack.common.js');
 module.exports = function (env) {
     const path = `${__dirname}/dist/${env}`;
     return Merge(CommonConfig, {
-        devtool: 'source-map',
+        devtool: 'cheap-module-source-map',
         output: {
             path: path,
             filename: "[name].js"
