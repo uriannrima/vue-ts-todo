@@ -1,5 +1,4 @@
-import Home from './components/pages/Home.vue'
-import About from './components/pages/About.vue'
+import { About, Home } from './components/pages';
 
 const routes = [
     { path: '/', redirect: '/home' },

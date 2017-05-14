@@ -32,13 +32,13 @@ import Vue from 'vue'
 import Component from 'vue-class-component'
 
 class NavItem {
-    label : string;
+    label: string;
     to: string;
 }
 
 @Component({})
 export default class extends Vue {
-    navItems : NavItem[] = [
+    navItems: NavItem[] = [
         { label: 'Home', to: '/home' },
         { label: 'About', to: '/about' }
     ]
