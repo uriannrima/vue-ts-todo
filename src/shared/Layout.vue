@@ -9,7 +9,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
-import { Contents, Foot, Navbar } from './layout-components'
+import { Contents, Foot, Navbar } from '../components/layout'
 
 @Component({
     components: {

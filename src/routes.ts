@@ -1,4 +1,4 @@
-import { About, Home } from './components/pages';
+import { About, Home } from './pages';
 
 const routes = [
     { path: '/', redirect: '/home' },
