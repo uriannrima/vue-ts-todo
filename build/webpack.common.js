@@ -2,7 +2,7 @@ var path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  context: path.join(__dirname, "src"),
+  context: path.join(__dirname, "../src"),
   entry: {
     app: './main.ts',
     vendor: './vendor.ts'
