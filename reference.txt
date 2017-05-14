@@ -1,0 +1,15 @@
+1) Vue:
+    https://vuejs.org/v2/guide/
+
+2) Router:
+    https://router.vuejs.org/en/
+
+3) vue-loader (or .vue):
+    https://vue-loader.vuejs.org/en/
+
+4) Vue with Typescript
+    https://github.com/vuejs/vue-class-component
+
+5) Vetur:
+    https://github.com/octref/vetur/blob/master/docs/formatting.md
+    https://github.com/beautify-web/js-beautify
