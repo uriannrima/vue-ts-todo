@@ -1,8 +1,10 @@
 <template>
-    <div>
-        <router-link to="/">Go to Home</router-link>
-        <router-link to="/about">Go to About</router-link>
-        <router-view></router-view>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <router-view></router-view>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -15,3 +17,10 @@ export default class extends Vue {
 
 }
 </script>
+
+<style scoped>
+.container {
+    margin-bottom: 40px
+}
+</style>
+
