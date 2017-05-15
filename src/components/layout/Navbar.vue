@@ -1,3 +1,26 @@
+<script lang="ts">
+import Vue from 'vue'
+import Component from 'vue-class-component'
+
+class NavItem {
+    label: string;
+    to: string;
+}
+
+@Component({})
+export default class Navbar extends Vue {
+    isOpen: boolean = false;
+    navItems: NavItem[] = [
+        { label: 'Home', to: '/home' },
+        { label: 'About', to: '/about' }
+    ]
+
+    toggleCollapse() {
+        this.isOpen = !this.isOpen;
+    }
+}
+</script>
+
 <template>
     <nav class="navbar navbar-default navbar-fixed-top"
         role="navigation">
@@ -30,28 +53,6 @@
     </nav>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import Component from 'vue-class-component'
-
-class NavItem {
-    label: string;
-    to: string;
-}
-
-@Component({})
-export default class Navbar extends Vue {
-    isOpen: boolean = false;
-    navItems: NavItem[] = [
-        { label: 'Home', to: '/home' },
-        { label: 'About', to: '/about' }
-    ]
-
-    toggleCollapse() {
-        this.isOpen = !this.isOpen;
-    }
-}
-</script>
 <style>
 body {
     padding-top: 70px;

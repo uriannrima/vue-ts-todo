@@ -1,18 +1,10 @@
-<template>
-    <footer v-bind:style="footerStyle">
-        <div class="container">
-            <p class="text-muted">Made by UriannRima.</p>
-        </div>
-    </footer>
-</template>
-
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
 
 @Component({})
 export default class Foot extends Vue {
-    footerStyle : any = {
+    footerStyle: any = {
         position: "fixed",
         left: "0",
         bottom: "0",
@@ -24,3 +16,11 @@ export default class Foot extends Vue {
     }
 }
 </script>
+
+<template>
+    <footer v-bind:style="footerStyle">
+        <div class="container">
+            <p class="text-muted">Made by UriannRima.</p>
+        </div>
+    </footer>
+</template>
